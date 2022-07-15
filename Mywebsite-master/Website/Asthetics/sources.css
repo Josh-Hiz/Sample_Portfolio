@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@font-face {
+    font-family: "ComicNeue-Regular";
+    src: url("/Fonts/ComicNeue-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ComicNeue-Bold";
+    src: url("/Fonts/ComicNeue-Bold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Raleway-Bold";
+    src: url("/Fonts/Raleway-Bold.ttf") format("ttf"),
+}
+
+@font-face {
+    font-family: "Raleway-Regular";
+    src: url("/Fonts/Raleway-Regular.ttf") format("ttf");
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+    color: #777;
+}
+
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, 3);
+}
+
+.main-about-header {
+    background-image: url("/resources/63e1657a8a6249a2fc9c062b17f27ce0.gif");
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    padding-bottom: 50px;
+    background-size: cover;
+}
+
+.about-middle {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: normal;
+    color: white;
+}
+
+.about-middle-large {
+    font-size: 5em;
+}
+
+.circular-square {
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    float: left;
+    width: 415px;
+    height: 415px;
+    margin: 15px;
+}
+
+.section-about {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 7em;
+    padding-top: 5px;
+}
+
+.header-section {
+    font-weight: normal;
+}
+
+.footer-about {
+    background-image: url(/resources/wallpaper.png);
+    padding: .5em 0;
+}
+
+.footer-about-container {
+    display: flex;
+    align-items: center;
+}
+
+.footer-about-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0%;
+    font-size: 1em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.game-code {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin: 1em;
+}
+
+.game-one {
+    padding-right: .5em;
+    display: inline-block;
+}
+
+.all-code {
+    border-top: 1px solid black;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin: 1em;
+}
+
+.new-image {
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
